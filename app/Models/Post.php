@@ -14,6 +14,7 @@ class Post extends Model
         'title', 'slug', 'text', 'author'
     ];
 
+    
     public function sluggable(): array
     {
         return [
